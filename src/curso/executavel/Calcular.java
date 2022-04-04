@@ -20,12 +20,17 @@ public class Calcular {
 			
 			if (resposta == 0) {
 		        JOptionPane.showMessageDialog(null, "Divisão para pessoas deu: " + divisao);
+			}else {
+				System.out.println("Não quis ver o resultado");
 			}
 			
 			resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resto da divisão ? ");
 			
 			if (resposta == 0) {
 				JOptionPane.showMessageDialog(null, "O resto da divisão é " + resto);
+			}else {
+				System.out.println("Não quis ver o resultado");
+
 			}
 			
 		}
