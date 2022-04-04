@@ -26,7 +26,7 @@ public class CalcularMedia {
 				JOptionPane.showMessageDialog(null, "Aluno em recuperação com média de: " + media);
 			}
 		} else {
-			JOptionPane.showMessageDialog(null, "Aluno está reprovado com média de: " + media);
+			JOptionPane.showMessageDialog(null, "Aluno está reprovado com média de : " + media);
 		}
 	}
 
